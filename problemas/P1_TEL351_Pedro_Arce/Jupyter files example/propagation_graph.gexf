@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-19">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="types_str" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+    </attributes>
+    <nodes>
+      <node id="guillermorocaf1" label="guillermorocaf1">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="anto05466940" label="anto05466940">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="filomatick" label="filomatick">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="lletrosergi" label="lletrosergi">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="laquefaltaba10" label="laquefaltaba10">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="obnibium" label="obnibium">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="jfsj1964" label="jfsj1964">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="k2maskedos" label="k2maskedos">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="angelessanrroma" label="angelessanrroma">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="curricu1973" label="curricu1973">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="lolaandaluza" label="lolaandaluza">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="laranarene7933" label="laranarene7933">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="manuel_palao_l" label="manuel_palao_l">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="bok3ron84" label="bok3ron84">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="yowah2i" label="yowah2i">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="sofia67926381" label="sofia67926381">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="samv1543906" label="samv1543906">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="8qhpq5cyxg" label="8qhpq5cyxg">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="jorgehi19425539" label="jorgehi19425539">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="jobemofa" label="jobemofa">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="ferdiazdiaz2000" label="ferdiazdiaz2000">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="hernand09064134" label="hernand09064134">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="acastagne" label="acastagne">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="andvilla1" label="andvilla1">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="angelh49" label="angelh49">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="aniscartujopapi" label="aniscartujopapi">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="franxuh_" label="franxuh_">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="juanjodemocrata" label="juanjodemocrata">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="elsisifofeliz" label="elsisifofeliz">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="odiadoratodo" label="odiadoratodo">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="danidani34205" label="danidani34205">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="despistao84" label="despistao84">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="boira__" label="boira__">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="baneadomike" label="baneadomike">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="antonioruizalb1" label="antonioruizalb1">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="bodeloncelia" label="bodeloncelia">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="quotesforgoal" label="quotesforgoal">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="marccbg" label="marccbg">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="corajeespana" label="corajeespana">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="vox_es" label="vox_es">
+        <attvalues>
+          <attvalue for="0" value="mentioned" />
+        </attvalues>
+      </node>
+      <node id="capitana_espana" label="capitana_espana">
+        <attvalues>
+          <attvalue for="0" value="mentioned" />
+        </attvalues>
+      </node>
+      <node id="anamkra" label="anamkra">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="pablocampiq" label="pablocampiq">
+        <attvalues>
+          <attvalue for="0" value="mentioned" />
+        </attvalues>
+      </node>
+      <node id="el_as_del_legon" label="el_as_del_legon">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="jaeg1970" label="jaeg1970">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="maiteluna73" label="maiteluna73">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="antonio52021598" label="antonio52021598">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="wangtunfrito" label="wangtunfrito">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="lydiapanter" label="lydiapanter">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="urkyland" label="urkyland">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="pabloharour" label="pabloharour">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="atlanticsurff" label="atlanticsurff">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="maraojiplatica" label="maraojiplatica">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="jav646" label="jav646">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="tugonews" label="tugonews">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="mazito95" label="mazito95">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="donabrahan3" label="donabrahan3">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="fereze" label="fereze">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="federicograu4" label="federicograu4">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="fabril" label="fabril">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="verew13" label="verew13">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="diglossos" label="diglossos">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="rerumnovarumxiv" label="rerumnovarumxiv">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="miguelcontigo" label="miguelcontigo">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="critiquero" label="critiquero">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="alvisepereznews" label="alvisepereznews">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="salvamekofrade8" label="salvamekofrade8">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="lagrima75" label="lagrima75">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="ineslorenzo" label="ineslorenzo">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="adrianaveterin" label="adrianaveterin">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="vania96590847" label="vania96590847">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="betaniatv" label="betaniatv">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="imaria84197" label="imaria84197">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="algabahd" label="algabahd">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="diazperez51914" label="diazperez51914">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="pedrovalen53941" label="pedrovalen53941">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="nakamonosatoshi" label="nakamonosatoshi">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="generalwolf821" label="generalwolf821">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="andesspo" label="andesspo">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="capri9015" label="capri9015">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="tthoro_veloz" label="tthoro_veloz">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="tadeoeus" label="tadeoeus">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+      <node id="ferna1_diez" label="ferna1_diez">
+        <attvalues>
+          <attvalue for="0" value="tweet_author" />
+        </attvalues>
+      </node>
+      <node id="gary_garcia_lc" label="gary_garcia_lc">
+        <attvalues>
+          <attvalue for="0" value="participant" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="guillermorocaf1" target="anto05466940" id="0" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="filomatick" id="1" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="lletrosergi" id="2" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="sofia67926381" id="3" weight="2">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="baneadomike" id="4" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="antonioruizalb1" id="5" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="bodeloncelia" id="6" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="guillermorocaf1" id="7" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="corajeespana" id="8" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="anamkra" id="9" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="el_as_del_legon" id="10" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="jaeg1970" id="11" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="maiteluna73" id="12" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="antonio52021598" id="13" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="wangtunfrito" id="14" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="lydiapanter" id="15" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="urkyland" id="16" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="maraojiplatica" id="17" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="jav646" id="18" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="guillermorocaf1" target="tadeoeus" id="19" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="obnibium" id="20" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="laquefaltaba10" id="21" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="jfsj1964" id="22" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="k2maskedos" id="23" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="angelessanrroma" id="24" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="curricu1973" id="25" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="lolaandaluza" id="26" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="laranarene7933" id="27" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="manuel_palao_l" id="28" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="lletrosergi" id="29" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="bok3ron84" id="30" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="laquefaltaba10" target="yowah2i" id="31" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="samv1543906" target="8qhpq5cyxg" id="32" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="samv1543906" target="jorgehi19425539" id="33" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="samv1543906" target="jobemofa" id="34" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="samv1543906" target="ferdiazdiaz2000" id="35" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="samv1543906" target="hernand09064134" id="36" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="andvilla1" target="angelh49" id="37" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="andvilla1" target="aniscartujopapi" id="38" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="franxuh_" target="juanjodemocrata" id="39" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="franxuh_" target="elsisifofeliz" id="40" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="franxuh_" target="odiadoratodo" id="41" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="franxuh_" target="danidani34205" id="42" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="franxuh_" target="despistao84" id="43" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="franxuh_" target="boira__" id="44" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="quotesforgoal" target="marccbg" id="45" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="corajeespana" target="vox_es" id="46" weight="1">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+        </attvalues>
+      </edge>
+      <edge source="corajeespana" target="capitana_espana" id="47" weight="1">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+        </attvalues>
+      </edge>
+      <edge source="anamkra" target="pablocampiq" id="48" weight="1">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+        </attvalues>
+      </edge>
+      <edge source="tugonews" target="mazito95" id="49" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="tugonews" target="donabrahan3" id="50" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="tugonews" target="fereze" id="51" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="tugonews" target="federicograu4" id="52" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="tugonews" target="fabril" id="53" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="tugonews" target="verew13" id="54" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="tugonews" target="diglossos" id="55" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="tugonews" target="rerumnovarumxiv" id="56" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="miguelcontigo" target="critiquero" id="57" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="alvisepereznews" target="salvamekofrade8" id="58" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="lagrima75" target="ineslorenzo" id="59" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="adrianaveterin" target="vania96590847" id="60" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="betaniatv" target="betaniatv" id="61" weight="5">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="betaniatv" target="imaria84197" id="62" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="betaniatv" target="algabahd" id="63" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="betaniatv" target="diazperez51914" id="64" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="pedrovalen53941" target="nakamonosatoshi" id="65" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="pedrovalen53941" target="generalwolf821" id="66" weight="2">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="pedrovalen53941" target="andesspo" id="67" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="pedrovalen53941" target="capri9015" id="68" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="pedrovalen53941" target="tthoro_veloz" id="69" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="ferna1_diez" target="ineslorenzo" id="70" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+      <edge source="ferna1_diez" target="gary_garcia_lc" id="71" weight="1">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

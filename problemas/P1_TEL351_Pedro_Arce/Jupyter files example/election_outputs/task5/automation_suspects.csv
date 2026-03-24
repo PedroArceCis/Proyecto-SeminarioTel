@@ -1,0 +1,9 @@
+﻿handle,name,posts,first_seen,last_seen,links_ratio,median_gap_min,digits_suffix_len,has_long_digits,burst10_max_posts,domain_variety,reply_bot_score_mean,score_proxy,reasons,is_suspect
+anto05466940,"JA, JA 2",1,2025-10-19 22:39:52+00:00,2025-10-19 22:39:52+00:00,0.0,0.0,8,True,0,0,0.6,3.5,long_digits_suffix;zero_median_gap;high_reply_bot_score_mean,True
+jorgehi19425539,Jorge hidalgo,1,2025-10-11 09:52:25+00:00,2025-10-11 09:52:25+00:00,0.0,0.0,8,True,0,0,0.6,3.5,long_digits_suffix;zero_median_gap;high_reply_bot_score_mean,True
+vania96590847,Edu.car,1,2025-10-19 18:26:39+00:00,2025-10-19 18:26:39+00:00,0.0,0.0,8,True,0,0,0.6,3.5,long_digits_suffix;zero_median_gap;high_reply_bot_score_mean,True
+hernand09064134,Hernando,1,2025-10-10 00:13:19+00:00,2025-10-10 00:13:19+00:00,0.0,0.0,8,True,0,0,0.6,3.5,long_digits_suffix;zero_median_gap;high_reply_bot_score_mean,True
+imaria84197,Friki Ando,1,2025-10-16 15:36:55+00:00,2025-10-16 15:36:55+00:00,0.0,0.0,5,True,0,0,0.6,3.5,long_digits_suffix;zero_median_gap;high_reply_bot_score_mean,True
+diazperez51914,Andres Diaz Perez,1,2025-10-18 19:35:10+00:00,2025-10-18 19:35:10+00:00,0.0,0.0,5,True,0,0,0.6,3.5,long_digits_suffix;zero_median_gap;high_reply_bot_score_mean,True
+danidani34205,Dani,1,2025-10-19 10:15:02+00:00,2025-10-19 10:15:02+00:00,0.0,0.0,5,True,0,0,0.6,3.5,long_digits_suffix;zero_median_gap;high_reply_bot_score_mean,True
+antonio52021598,Antonio Hdez,1,2025-10-14 11:27:17+00:00,2025-10-14 11:27:17+00:00,0.0,0.0,8,True,0,0,0.6,3.5,long_digits_suffix;zero_median_gap;high_reply_bot_score_mean,True

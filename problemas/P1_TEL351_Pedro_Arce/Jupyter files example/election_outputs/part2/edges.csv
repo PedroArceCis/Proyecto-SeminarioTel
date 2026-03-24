@@ -1,0 +1,109 @@
+src,dst,weight,etypes
+candidate:Franco Parisi,user:nan,1.0,cooc_candidate
+candidate:Kast,user:andesspo,1.0,cooc_candidate
+candidate:Parisi,user:nan,1.0,cooc_candidate
+candidate:Parisi,user:capri9015,1.0,cooc_candidate
+candidate:Parisi,user:generalwolf821,1.0,cooc_candidate
+topic:fraude electoral,user:lletrosergi,2.0,cooc_topic
+topic:fraude electoral,user:obnibium,1.0,cooc_topic
+topic:fraude electoral,user:laquefaltaba10,1.0,cooc_topic
+topic:fraude electoral,user:jfsj1964,1.0,cooc_topic
+topic:fraude electoral,user:angelessanrroma,1.0,cooc_topic
+topic:fraude electoral,user:lolaandaluza,1.0,cooc_topic
+topic:fraude electoral,user:laranarene7933,1.0,cooc_topic
+topic:fraude electoral,user:bok3ron84,1.0,cooc_topic
+topic:fraude electoral,user:8qhpq5cyxg,1.0,cooc_topic
+topic:fraude electoral,user:hernand09064134,1.0,cooc_topic
+topic:fraude electoral,user:angelh49,1.0,cooc_topic
+topic:fraude electoral,user:aniscartujopapi,1.0,cooc_topic
+topic:fraude electoral,user:nan,3.0,cooc_topic
+topic:fraude electoral,user:juanjodemocrata,1.0,cooc_topic
+topic:fraude electoral,user:boira__,1.0,cooc_topic
+topic:fraude electoral,user:antonioruizalb1,1.0,cooc_topic
+topic:fraude electoral,user:marccbg,1.0,cooc_topic
+topic:fraude electoral,user:guillermorocaf1,1.0,cooc_topic
+topic:fraude electoral,user:el_as_del_legon,1.0,cooc_topic
+topic:fraude electoral,user:jaeg1970,1.0,cooc_topic
+topic:fraude electoral,user:antonio52021598,1.0,cooc_topic
+topic:fraude electoral,user:wangtunfrito,1.0,cooc_topic
+topic:fraude electoral,user:lydiapanter,1.0,cooc_topic
+topic:fraude electoral,user:maraojiplatica,1.0,cooc_topic
+topic:fraude electoral,user:mazito95,1.0,cooc_topic
+topic:fraude electoral,user:donabrahan3,1.0,cooc_topic
+topic:fraude electoral,user:fereze,1.0,cooc_topic
+topic:fraude electoral,user:federicograu4,1.0,cooc_topic
+topic:fraude electoral,user:fabril,1.0,cooc_topic
+topic:fraude electoral,user:verew13,1.0,cooc_topic
+topic:fraude electoral,user:diglossos,1.0,cooc_topic
+topic:fraude electoral,user:betaniatv,4.0,cooc_topic
+topic:fraude electoral,user:algabahd,1.0,cooc_topic
+topic:fraude electoral,user:diazperez51914,1.0,cooc_topic
+topic:fraude electoral,user:tthoro_veloz,1.0,cooc_topic
+topic:acarreo/compra,user:vania96590847,1.0,cooc_topic
+user:angelessanrroma,user:laquefaltaba10,1.0,reply
+user:odiadoratodo,user:franxuh_,1.0,reply
+user:samv1543906,user:8qhpq5cyxg,1.0,reply
+user:samv1543906,user:jorgehi19425539,1.0,reply
+user:samv1543906,user:jobemofa,1.0,reply
+user:samv1543906,user:ferdiazdiaz2000,1.0,reply
+user:samv1543906,user:hernand09064134,1.0,reply
+user:obnibium,user:laquefaltaba10,1.0,reply
+user:laquefaltaba10,user:jfsj1964,1.0,reply
+user:laquefaltaba10,user:k2maskedos,1.0,reply
+user:laquefaltaba10,user:curricu1973,1.0,reply
+user:laquefaltaba10,user:lolaandaluza,1.0,reply
+user:laquefaltaba10,user:laranarene7933,1.0,reply
+user:laquefaltaba10,user:manuel_palao_l,1.0,reply
+user:laquefaltaba10,user:lletrosergi,1.0,reply
+user:laquefaltaba10,user:bok3ron84,1.0,reply
+user:laquefaltaba10,user:yowah2i,1.0,reply
+user:lagrima75,user:ineslorenzo,1.0,reply
+user:adrianaveterin,user:vania96590847,1.0,reply
+user:corajeespana,user:guillermorocaf1,1.0,reply
+user:franxuh_,user:juanjodemocrata,1.0,reply
+user:franxuh_,user:elsisifofeliz,1.0,reply
+user:franxuh_,user:danidani34205,1.0,reply
+user:franxuh_,user:despistao84,1.0,reply
+user:franxuh_,user:boira__,1.0,reply
+user:el_as_del_legon,user:guillermorocaf1,1.0,reply
+user:nakamonosatoshi,user:pedrovalen53941,1.0,reply
+user:lletrosergi,user:guillermorocaf1,1.0,reply
+user:fabril,user:tugonews,1.0,reply
+user:capri9015,user:pedrovalen53941,1.0,reply
+user:urkyland,user:guillermorocaf1,1.0,reply
+user:jaeg1970,user:guillermorocaf1,1.0,reply
+user:tugonews,user:mazito95,1.0,reply
+user:tugonews,user:donabrahan3,1.0,reply
+user:tugonews,user:fereze,1.0,reply
+user:tugonews,user:federicograu4,1.0,reply
+user:tugonews,user:verew13,1.0,reply
+user:tugonews,user:diglossos,1.0,reply
+user:tugonews,user:rerumnovarumxiv,1.0,reply
+user:antonioruizalb1,user:guillermorocaf1,1.0,reply
+user:tadeoeus,user:guillermorocaf1,1.0,reply
+user:jav646,user:guillermorocaf1,1.0,reply
+user:antonio52021598,user:guillermorocaf1,1.0,reply
+user:salvamekofrade8,user:alvisepereznews,1.0,reply
+user:angelh49,user:andvilla1,1.0,reply
+user:tthoro_veloz,user:pedrovalen53941,1.0,reply
+user:betaniatv,user:imaria84197,1.0,reply
+user:betaniatv,user:algabahd,1.0,reply
+user:betaniatv,user:diazperez51914,1.0,reply
+user:filomatick,user:guillermorocaf1,1.0,reply
+user:sofia67926381,user:guillermorocaf1,2.0,reply
+user:critiquero,user:miguelcontigo,1.0,reply
+user:ineslorenzo,user:ferna1_diez,1.0,reply
+user:wangtunfrito,user:guillermorocaf1,1.0,reply
+user:lydiapanter,user:guillermorocaf1,1.0,reply
+user:generalwolf821,user:pedrovalen53941,2.0,reply
+user:bodeloncelia,user:guillermorocaf1,1.0,reply
+user:guillermorocaf1,user:anto05466940,1.0,reply
+user:guillermorocaf1,user:nan,1.0,mention
+user:guillermorocaf1,user:baneadomike,1.0,reply
+user:guillermorocaf1,user:anamkra,1.0,reply
+user:guillermorocaf1,user:maiteluna73,1.0,reply
+user:guillermorocaf1,user:maraojiplatica,1.0,reply
+user:marccbg,user:quotesforgoal,1.0,reply
+user:andvilla1,user:aniscartujopapi,1.0,reply
+user:pedrovalen53941,user:andesspo,1.0,reply
+user:gary_garcia_lc,user:ferna1_diez,1.0,reply

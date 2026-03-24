@@ -1,0 +1,111 @@
+id,ntype,key,label,is_suspect
+candidate:Artes,candidate,Artes,Artes,False
+candidate:Artés,candidate,Artés,Artés,False
+candidate:Eduardo Artes,candidate,Eduardo Artes,Eduardo Artes,False
+candidate:Evelyn Matthei,candidate,Evelyn Matthei,Evelyn Matthei,False
+candidate:Franco Parisi,candidate,Franco Parisi,Franco Parisi,False
+candidate:Harold Mayne-Nicholls,candidate,Harold Mayne-Nicholls,Harold Mayne-Nicholls,False
+candidate:Jara,candidate,Jara,Jara,False
+candidate:Jeannette Jara,candidate,Jeannette Jara,Jeannette Jara,False
+candidate:Johannes Kaiser,candidate,Johannes Kaiser,Johannes Kaiser,False
+candidate:Jose Antonio Kast,candidate,Jose Antonio Kast,Jose Antonio Kast,False
+candidate:Kaiser,candidate,Kaiser,Kaiser,False
+candidate:Kast,candidate,Kast,Kast,False
+candidate:ME-O,candidate,ME-O,ME-O,False
+candidate:Marco Enriquez Ominami,candidate,Marco Enriquez Ominami,Marco Enriquez Ominami,False
+candidate:Marco Enriquez-Ominami,candidate,Marco Enriquez-Ominami,Marco Enriquez-Ominami,False
+candidate:Marco Enríquez-Ominami,candidate,Marco Enríquez-Ominami,Marco Enríquez-Ominami,False
+candidate:Matthei,candidate,Matthei,Matthei,False
+candidate:Mayne-Nicholls,candidate,Mayne-Nicholls,Mayne-Nicholls,False
+candidate:Parisi,candidate,Parisi,Parisi,False
+topic:fraude electoral,topic,fraude electoral,fraude electoral,False
+topic:apagón informático,topic,apagón informático,apagón informático,False
+topic:actas alteradas,topic,actas alteradas,actas alteradas,False
+topic:urnas,topic,urnas,urnas,False
+topic:conteo manipulado,topic,conteo manipulado,conteo manipulado,False
+topic:voto fantasma,topic,voto fantasma,voto fantasma,False
+topic:padrón inflado,topic,padrón inflado,padrón inflado,False
+topic:acarreo/compra,topic,acarreo/compra,acarreo/compra,False
+topic:debunk,topic,debunk,debunk,False
+user:angelessanrroma,user,angelessanrroma,angelessanrroma,False
+user:odiadoratodo,user,odiadoratodo,odiadoratodo,False
+user:samv1543906,user,samv1543906,samv1543906,False
+user:obnibium,user,obnibium,obnibium,False
+user:jorgehi19425539,user,jorgehi19425539,jorgehi19425539,True
+user:laquefaltaba10,user,laquefaltaba10,laquefaltaba10,False
+user:lagrima75,user,lagrima75,lagrima75,False
+user:adrianaveterin,user,adrianaveterin,adrianaveterin,False
+user:atlanticsurff,user,atlanticsurff,atlanticsurff,False
+user:corajeespana,user,corajeespana,corajeespana,False
+user:franxuh_,user,franxuh_,franxuh_,False
+user:el_as_del_legon,user,el_as_del_legon,el_as_del_legon,False
+user:nakamonosatoshi,user,nakamonosatoshi,nakamonosatoshi,False
+user:yowah2i,user,yowah2i,yowah2i,False
+user:lletrosergi,user,lletrosergi,lletrosergi,False
+user:fabril,user,fabril,fabril,False
+user:capri9015,user,capri9015,capri9015,False
+user:acastagne,user,acastagne,acastagne,False
+user:juanjodemocrata,user,juanjodemocrata,juanjodemocrata,False
+user:urkyland,user,urkyland,urkyland,False
+user:jaeg1970,user,jaeg1970,jaeg1970,False
+user:tugonews,user,tugonews,tugonews,False
+user:antonioruizalb1,user,antonioruizalb1,antonioruizalb1,False
+user:tadeoeus,user,tadeoeus,tadeoeus,False
+user:jav646,user,jav646,jav646,False
+user:antonio52021598,user,antonio52021598,antonio52021598,True
+user:manuel_palao_l,user,manuel_palao_l,manuel_palao_l,False
+user:federicograu4,user,federicograu4,federicograu4,False
+user:salvamekofrade8,user,salvamekofrade8,salvamekofrade8,False
+user:danidani34205,user,danidani34205,danidani34205,True
+user:angelh49,user,angelh49,angelh49,False
+user:vania96590847,user,vania96590847,vania96590847,True
+user:tthoro_veloz,user,tthoro_veloz,tthoro_veloz,False
+user:betaniatv,user,betaniatv,betaniatv,False
+user:filomatick,user,filomatick,filomatick,False
+user:sofia67926381,user,sofia67926381,sofia67926381,False
+user:critiquero,user,critiquero,critiquero,False
+user:ineslorenzo,user,ineslorenzo,ineslorenzo,False
+user:diglossos,user,diglossos,diglossos,False
+user:imaria84197,user,imaria84197,imaria84197,True
+user:hernand09064134,user,hernand09064134,hernand09064134,True
+user:bok3ron84,user,bok3ron84,bok3ron84,False
+user:wangtunfrito,user,wangtunfrito,wangtunfrito,False
+user:lydiapanter,user,lydiapanter,lydiapanter,False
+user:jfsj1964,user,jfsj1964,jfsj1964,False
+user:mazito95,user,mazito95,mazito95,False
+user:rerumnovarumxiv,user,rerumnovarumxiv,rerumnovarumxiv,False
+user:generalwolf821,user,generalwolf821,generalwolf821,False
+user:bodeloncelia,user,bodeloncelia,bodeloncelia,False
+user:pabloharour,user,pabloharour,pabloharour,False
+user:boira__,user,boira__,boira__,False
+user:lolaandaluza,user,lolaandaluza,lolaandaluza,False
+user:k2maskedos,user,k2maskedos,k2maskedos,False
+user:diazperez51914,user,diazperez51914,diazperez51914,True
+user:guillermorocaf1,user,guillermorocaf1,guillermorocaf1,False
+user:marccbg,user,marccbg,marccbg,False
+user:andvilla1,user,andvilla1,andvilla1,False
+user:verew13,user,verew13,verew13,False
+user:pedrovalen53941,user,pedrovalen53941,pedrovalen53941,False
+user:andesspo,user,andesspo,andesspo,False
+user:gary_garcia_lc,user,gary_garcia_lc,gary_garcia_lc,False
+user:miguelcontigo,user,miguelcontigo,miguelcontigo,False
+user:laranarene7933,user,laranarene7933,laranarene7933,False
+user:jobemofa,user,jobemofa,jobemofa,False
+user:maraojiplatica,user,maraojiplatica,maraojiplatica,False
+user:anamkra,user,anamkra,anamkra,False
+user:elsisifofeliz,user,elsisifofeliz,elsisifofeliz,False
+user:despistao84,user,despistao84,despistao84,False
+user:aniscartujopapi,user,aniscartujopapi,aniscartujopapi,False
+user:baneadomike,user,baneadomike,baneadomike,False
+user:algabahd,user,algabahd,algabahd,False
+user:ferna1_diez,user,ferna1_diez,ferna1_diez,False
+user:nan,user,nan,nan,False
+user:curricu1973,user,curricu1973,curricu1973,False
+user:8qhpq5cyxg,user,8qhpq5cyxg,8qhpq5cyxg,False
+user:alvisepereznews,user,alvisepereznews,alvisepereznews,False
+user:anto05466940,user,anto05466940,anto05466940,True
+user:quotesforgoal,user,quotesforgoal,quotesforgoal,False
+user:maiteluna73,user,maiteluna73,maiteluna73,False
+user:fereze,user,fereze,fereze,False
+user:donabrahan3,user,donabrahan3,donabrahan3,False
+user:ferdiazdiaz2000,user,ferdiazdiaz2000,ferdiazdiaz2000,False

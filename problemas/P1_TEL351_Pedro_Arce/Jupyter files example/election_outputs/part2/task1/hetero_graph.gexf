@@ -1,0 +1,1291 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-19">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="etype" type="string" />
+      <attribute id="2" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="ntype" type="string" />
+    </attributes>
+    <nodes>
+      <node id="user:anto05466940" label="anto05466940">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:guillermorocaf1" label="guillermorocaf1">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:guillermorocaf1" label="guillermorocaf1">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:filomatick" label="filomatick">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:lletrosergi" label="lletrosergi">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="topic:pucherazo" label="pucherazo">
+        <attvalues>
+          <attvalue for="0" value="topic" />
+        </attvalues>
+      </node>
+      <node id="user:laquefaltaba10" label="laquefaltaba10">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:laquefaltaba10" label="laquefaltaba10">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:el_distrito" label="el_distrito">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:espanaesnuestra" label="espanaesnuestra">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:obnibium" label="obnibium">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="topic:fraude_electoral" label="fraude_electoral">
+        <attvalues>
+          <attvalue for="0" value="topic" />
+        </attvalues>
+      </node>
+      <node id="user:jfsj1964" label="jfsj1964">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:k2maskedos" label="k2maskedos">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:angelessanrroma" label="angelessanrroma">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:curricu1973" label="curricu1973">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:lolaandaluza" label="lolaandaluza">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:laranarene7933" label="laranarene7933">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:manuel_palao_l" label="manuel_palao_l">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:bok3ron84" label="bok3ron84">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:yowah2i" label="yowah2i">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:sofia67926381" label="sofia67926381">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:8qhpq5cyxg" label="8qhpq5cyxg">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:samv1543906" label="samv1543906">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:samv1543906" label="samv1543906">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:jorgehi19425539" label="jorgehi19425539">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:jobemofa" label="jobemofa">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:ferdiazdiaz2000" label="ferdiazdiaz2000">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:hernand09064134" label="hernand09064134">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:acastagne" label="acastagne">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:acastagne" label="acastagne">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:rocionahle" label="rocionahle">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:andvilla1" label="andvilla1">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:andvilla1" label="andvilla1">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:angelh49" label="angelh49">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:aniscartujopapi" label="aniscartujopapi">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:franxuh_" label="franxuh_">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:franxuh_" label="franxuh_">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:juanjodemocrata" label="juanjodemocrata">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:elsisifofeliz" label="elsisifofeliz">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:odiadoratodo" label="odiadoratodo">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:danidani34205" label="danidani34205">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:despistao84" label="despistao84">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:boira__" label="boira__">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:baneadomike" label="baneadomike">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:antonioruizalb1" label="antonioruizalb1">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:bodeloncelia" label="bodeloncelia">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:marccbg" label="marccbg">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:quotesforgoal" label="quotesforgoal">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:quotesforgoal" label="quotesforgoal">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:interiorgob" label="interiorgob">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:corajeespana" label="corajeespana">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:vox_es" label="vox_es">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:capitana_espana" label="capitana_espana">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:anamkra" label="anamkra">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:pablocampiq" label="pablocampiq">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:el_as_del_legon" label="el_as_del_legon">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:jaeg1970" label="jaeg1970">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:maiteluna73" label="maiteluna73">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:antonio52021598" label="antonio52021598">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:wangtunfrito" label="wangtunfrito">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:lydiapanter" label="lydiapanter">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:urkyland" label="urkyland">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:pabloharour" label="pabloharour">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:pabloharour" label="pabloharour">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:atlanticsurff" label="atlanticsurff">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:atlanticsurff" label="atlanticsurff">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:maraojiplatica" label="maraojiplatica">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:jav646" label="jav646">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:mazito95" label="mazito95">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:tugonews" label="tugonews">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:tugonews" label="tugonews">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:donabrahan3" label="donabrahan3">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:fereze" label="fereze">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:federicograu4" label="federicograu4">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:fabril" label="fabril">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:verew13" label="verew13">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:diglossos" label="diglossos">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:rerumnovarumxiv" label="rerumnovarumxiv">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:critiquero" label="critiquero">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:miguelcontigo" label="miguelcontigo">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:miguelcontigo" label="miguelcontigo">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:salvamekofrade8" label="salvamekofrade8">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:alvisepereznews" label="alvisepereznews">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:alvisepereznews" label="alvisepereznews">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:ineslorenzo" label="ineslorenzo">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:lagrima75" label="lagrima75">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:lagrima75" label="lagrima75">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:vania96590847" label="vania96590847">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:adrianaveterin" label="adrianaveterin">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:adrianaveterin" label="adrianaveterin">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="topic:compra_de_votos" label="compra_de_votos">
+        <attvalues>
+          <attvalue for="0" value="topic" />
+        </attvalues>
+      </node>
+      <node id="user:betaniatv" label="betaniatv">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:betaniatv" label="betaniatv">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:imaria84197" label="imaria84197">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:algabahd" label="algabahd">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:diazperez51914" label="diazperez51914">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:pedrovalen53941" label="pedrovalen53941">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:pedrovalen53941" label="pedrovalen53941">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:nakamonosatoshi" label="nakamonosatoshi">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:generalwolf821" label="generalwolf821">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:andesspo" label="andesspo">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:capri9015" label="capri9015">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:tthoro_veloz" label="tthoro_veloz">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:tadeoeus" label="tadeoeus">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="user:ferna1_diez" label="ferna1_diez">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+      <node id="candidate:ferna1_diez" label="ferna1_diez">
+        <attvalues>
+          <attvalue for="0" value="candidate" />
+        </attvalues>
+      </node>
+      <node id="user:gary_garcia_lc" label="gary_garcia_lc">
+        <attvalues>
+          <attvalue for="0" value="user" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="user:anto05466940" target="user:guillermorocaf1" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:guillermorocaf1" target="user:interiorgob" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:guillermorocaf1" target="topic:pucherazo" id="2" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:guillermorocaf1" target="topic:pucherazo" id="3" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="user:guillermorocaf1" target="topic:pucherazo" id="4" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="user:guillermorocaf1" target="user:el_distrito" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="candidate:guillermorocaf1" target="topic:pucherazo" id="6" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="seed_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="candidate:guillermorocaf1" target="topic:pucherazo" id="7" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="seed_topic" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="user:filomatick" target="user:guillermorocaf1" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:lletrosergi" target="user:guillermorocaf1" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:lletrosergi" target="topic:pucherazo" id="10" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:lletrosergi" target="topic:pucherazo" id="11" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="user:lletrosergi" target="user:laquefaltaba10" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:laquefaltaba10" target="user:guillermorocaf1" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:laquefaltaba10" target="user:el_distrito" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:laquefaltaba10" target="user:espanaesnuestra" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:laquefaltaba10" target="topic:fraude_electoral" id="16" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:obnibium" target="user:laquefaltaba10" id="17" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:obnibium" target="topic:fraude_electoral" id="18" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:jfsj1964" target="user:laquefaltaba10" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:jfsj1964" target="topic:pucherazo" id="20" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:k2maskedos" target="user:laquefaltaba10" id="21" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:angelessanrroma" target="user:laquefaltaba10" id="22" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:angelessanrroma" target="topic:pucherazo" id="23" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:curricu1973" target="user:laquefaltaba10" id="24" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:lolaandaluza" target="user:laquefaltaba10" id="25" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:lolaandaluza" target="topic:pucherazo" id="26" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:laranarene7933" target="user:laquefaltaba10" id="27" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:laranarene7933" target="topic:fraude_electoral" id="28" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:manuel_palao_l" target="user:laquefaltaba10" id="29" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:bok3ron84" target="user:laquefaltaba10" id="30" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:bok3ron84" target="topic:pucherazo" id="31" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:yowah2i" target="user:laquefaltaba10" id="32" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:sofia67926381" target="user:guillermorocaf1" id="33" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:sofia67926381" target="user:guillermorocaf1" id="34" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="user:8qhpq5cyxg" target="user:samv1543906" id="35" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:8qhpq5cyxg" target="topic:fraude_electoral" id="36" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:jorgehi19425539" target="user:samv1543906" id="37" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:jobemofa" target="user:samv1543906" id="38" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:ferdiazdiaz2000" target="user:samv1543906" id="39" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:hernand09064134" target="user:samv1543906" id="40" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:hernand09064134" target="topic:fraude_electoral" id="41" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:acastagne" target="user:rocionahle" id="42" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:angelh49" target="user:andvilla1" id="43" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:angelh49" target="topic:fraude_electoral" id="44" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:aniscartujopapi" target="user:andvilla1" id="45" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:aniscartujopapi" target="topic:fraude_electoral" id="46" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:franxuh_" target="topic:fraude_electoral" id="47" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="candidate:franxuh_" target="topic:fraude_electoral" id="48" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="seed_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:juanjodemocrata" target="user:franxuh_" id="49" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:juanjodemocrata" target="topic:fraude_electoral" id="50" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:elsisifofeliz" target="user:franxuh_" id="51" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:odiadoratodo" target="user:franxuh_" id="52" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:danidani34205" target="user:franxuh_" id="53" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:despistao84" target="user:franxuh_" id="54" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:boira__" target="user:franxuh_" id="55" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:boira__" target="topic:fraude_electoral" id="56" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:baneadomike" target="user:guillermorocaf1" id="57" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:antonioruizalb1" target="user:guillermorocaf1" id="58" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:antonioruizalb1" target="topic:pucherazo" id="59" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:bodeloncelia" target="user:guillermorocaf1" id="60" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:marccbg" target="user:quotesforgoal" id="61" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:marccbg" target="topic:fraude_electoral" id="62" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:corajeespana" target="user:guillermorocaf1" id="63" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:corajeespana" target="user:vox_es" id="64" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:corajeespana" target="user:capitana_espana" id="65" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:anamkra" target="user:guillermorocaf1" id="66" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:anamkra" target="user:pablocampiq" id="67" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="mention" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:el_as_del_legon" target="user:guillermorocaf1" id="68" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:el_as_del_legon" target="topic:pucherazo" id="69" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:jaeg1970" target="user:guillermorocaf1" id="70" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:jaeg1970" target="topic:pucherazo" id="71" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:maiteluna73" target="user:guillermorocaf1" id="72" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:antonio52021598" target="user:guillermorocaf1" id="73" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:antonio52021598" target="topic:pucherazo" id="74" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:wangtunfrito" target="user:guillermorocaf1" id="75" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:wangtunfrito" target="topic:fraude_electoral" id="76" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:lydiapanter" target="user:guillermorocaf1" id="77" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:lydiapanter" target="topic:pucherazo" id="78" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:urkyland" target="user:guillermorocaf1" id="79" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:maraojiplatica" target="user:guillermorocaf1" id="80" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:maraojiplatica" target="topic:pucherazo" id="81" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:jav646" target="user:guillermorocaf1" id="82" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:mazito95" target="user:tugonews" id="83" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:mazito95" target="topic:fraude_electoral" id="84" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:donabrahan3" target="user:tugonews" id="85" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:donabrahan3" target="topic:fraude_electoral" id="86" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:fereze" target="user:tugonews" id="87" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:fereze" target="topic:fraude_electoral" id="88" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:federicograu4" target="user:tugonews" id="89" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:federicograu4" target="topic:fraude_electoral" id="90" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:fabril" target="user:tugonews" id="91" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:fabril" target="topic:fraude_electoral" id="92" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:verew13" target="user:tugonews" id="93" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:verew13" target="topic:fraude_electoral" id="94" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:diglossos" target="user:tugonews" id="95" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:diglossos" target="topic:fraude_electoral" id="96" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:rerumnovarumxiv" target="user:tugonews" id="97" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:critiquero" target="user:miguelcontigo" id="98" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:salvamekofrade8" target="user:alvisepereznews" id="99" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:ineslorenzo" target="user:lagrima75" id="100" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:ineslorenzo" target="user:ferna1_diez" id="101" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:vania96590847" target="user:adrianaveterin" id="102" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:vania96590847" target="topic:compra_de_votos" id="103" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:betaniatv" target="topic:fraude_electoral" id="104" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:betaniatv" target="topic:pucherazo" id="105" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:betaniatv" target="topic:pucherazo" id="106" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="user:betaniatv" target="topic:pucherazo" id="107" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="user:imaria84197" target="user:betaniatv" id="108" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:algabahd" target="user:betaniatv" id="109" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:algabahd" target="topic:pucherazo" id="110" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:diazperez51914" target="user:betaniatv" id="111" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:diazperez51914" target="topic:pucherazo" id="112" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:nakamonosatoshi" target="user:pedrovalen53941" id="113" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:generalwolf821" target="user:pedrovalen53941" id="114" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:generalwolf821" target="user:pedrovalen53941" id="115" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="user:andesspo" target="user:pedrovalen53941" id="116" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:capri9015" target="user:pedrovalen53941" id="117" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:tthoro_veloz" target="user:pedrovalen53941" id="118" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:tthoro_veloz" target="topic:fraude_electoral" id="119" label="fake_candidate" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="uses_topic" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:tadeoeus" target="user:guillermorocaf1" id="120" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="user:gary_garcia_lc" target="user:ferna1_diez" id="121" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="reply" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
