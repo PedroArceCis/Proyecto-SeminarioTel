@@ -1,0 +1,1155 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias Generadas por Agentes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .agente-section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .agente-header {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .agente-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .agente-desc {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .noticias-container {
+            padding: 20px;
+        }
+
+        .noticia {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+
+        .noticia:last-child {
+            border-bottom: none;
+        }
+
+        .noticia-titulo {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .noticia-meta {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        .noticia-contenido {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .noticia-url {
+            display: inline-block;
+            color: #3498db;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .noticia-url:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .agente-header {
+                flex-direction: column;
+                text-align: left;
+            }
+
+            .agente-title {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portal de Noticias Generadas por Agentes</h1>
+            <p class="subtitle">Contenido procesado automáticamente por agentes especializados</p>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section class="agente-section">
+            <div class="agente-header">
+                <div>
+                    <h2 class="agente-title">Titulares Impactantes Contextuales</h2>
+                    <p class="agente-desc">Genera titulares clickbait ajustados a la categoría, evitando sensacionalizar tragedias.</p>
+                </div>
+                <span class="contador-noticias">10 noticias</span>
+            </div>
+
+            <div class="noticias-container">
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Cómo Pedro Pascal se convirtió en el actor más cotizado de Hollywood en 2025</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T18:38:00</span> |
+                        <span class="categoria">cultura</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        Cultura: Cómo Pedro Pascal se convirtió en el actor... - La revelación exclusiva
+                    </div>
+                    <a href="https://www.cnnchile.com/cultura/como-pedro-pascal-se-convirtio-en-el-actor-mas-cotizado-de-hollywood-en-2025_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Durán explica por qué no se suspendió el partido entre la U y Colo Colo tras muerte de hincha: “No se cumplieron los requisitos”</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T18:36:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        Durán explica por qué no se suspendió el partido entre la U y Colo Colo tras muerte de hincha: “No se cumplieron los requisitos” - Información actualizada
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/delegado-duran-no-suspendio-partido-la-u-colo-colo-muerte-hincha_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Tras muerte de hincha en Monumental: Alcalde de Independencia dice que es una “mala decisión” jugar Supercopa en el Santa Laura</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T18:08:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ¿Sabías esto sobre Tras muerte de hincha en Monumental: Alcalde de...? Te sorprenderá
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/alcalde-independencia-mala-decision-jugar-supercopa-santa-laura-muerte-hincha-monumental_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Vicente Pizarro tras victoria de Colo Colo en el superclásico: “Con nuestra gente nos tenemos que hacer fuertes”</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T17:45:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        Vicente Pizarro tras victoria de Colo Colo en...: El momento que cambió todo
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/vicente-pizarro-tras-victoria-de-colo-colo-en-el-superclasico-con-nuestra-gente-nos-tenemos-que-hacer-fuertes_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Se registra incendio estructural en una vivienda en Cerro Yungay en Valparaíso</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T17:34:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        Se registra incendio estructural en una vivienda en...: Lo que las autoridades no quieren que sepas
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/se-registra-incendio-estructural-en-una-vivienda-en-cerro-yungay-en-valparaiso_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Premier League: “Nos olvidamos de jugar”, dijo Pep Guardiola tras otra derrota del Manchester City</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T17:22:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ¡Insólito! Premier League: “Nos olvidamos de jugar”, dijo Pep... - Así se vivió el momento clave
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/premier-league-nos-olvidamos-jugar-pep-guardiola-otra-derrota-manchester-city_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Vicente Pizarro escribió la historia del Superclásico 198 con un solitario gol en el Monumental</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T17:02:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ¡Insólito! Vicente Pizarro escribió la historia del Superclásico 198... - Así se vivió el momento clave
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/vicente-pizarro-escribio-la-historia-del-superclasico-198-con-un-solitario-gol-en-el-monumental_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Tragedia en el Superclásico: hincha de Colo Colo murió tras caer del techo del Estadio Monumental</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T16:37:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        Tragedia en el Superclásico: hincha de Colo Colo murió tras caer del techo del Estadio Monumental - Información actualizada
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/tragedia-en-el-superclasico-hincha-de-colo-colo-murio-tras-caer-del-techo-del-estadio-monumental_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Decretan prisión preventiva para mujer acusada de violar a hombre con discapacidad en Arica</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T16:14:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        Decretan prisión preventiva para mujer acusada de violar a hombre con discapacidad en Arica - Información actualizada
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/decretan-prision-preventiva-para-mujer-acusada-de-violar-a-hombre-con-discapacidad-en-arica_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">De conservación a problema mortal: La creciente población de leones que amenaza a localidad en India</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T15:57:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Titulares Impactantes Contextuales</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        De conservación a problema mortal: La creciente población de leones que amenaza a localidad en India - Información actualizada
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/creciente-poblacion-leones-amenaza-localidad-india_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+            </div>
+        </section>
+        
+        <section class="agente-section">
+            <div class="agente-header">
+                <div>
+                    <h2 class="agente-title">Analista de Datos Estadísticos</h2>
+                    <p class="agente-desc">Extrae y analiza cifras, porcentajes y datos numéricos de las noticias.</p>
+                </div>
+                <span class="contador-noticias">10 noticias</span>
+            </div>
+
+            <div class="noticias-container">
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Superclásico 198: Universidad de Chile sufre la expulsión de Calderón en un duelo cargado de tensión</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T15:42:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: Superclásico 198: Universidad de Chile sufre la expulsión de Calderón en un duelo cargado de tensión
+
+**Datos más significativos identificados:**
+
+1. **2025** - Dato de decimal: 2025
+   Contexto: lderón. INAPELABLE, señores! pic.twitter.com/Tfq4BWip7A — Gonzalo Jara 🤟🏼 (@JohnyJara90) August 31, ...
+
+2. **2025** - Dato de decimal: 2025
+   Contexto: o Calderón 🟥 #ColoColo 0️⃣-0️⃣ #UdeChile #VamosLaU 🔵🔴 — Universidad de Chile (@udechile) August 31, ...
+
+3. **2025** - Dato de decimal: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+4. **2025** - Dato de entero: 2025
+   Contexto: lderón. INAPELABLE, señores! pic.twitter.com/Tfq4BWip7A — Gonzalo Jara 🤟🏼 (@JohnyJara90) August 31, ...
+
+5. **2025** - Dato de entero: 2025
+   Contexto: o Calderón 🟥 #ColoColo 0️⃣-0️⃣ #UdeChile #VamosLaU 🔵🔴 — Universidad de Chile (@udechile) August 31, ...
+
+**Análisis de tendencias:**
+- Período de estrenos: 2025.0-2025.0
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/superclasico-198-universidad-de-chile-sufre-la-expulsion-de-calderon-en-un-duelo-cargado-de-tension_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Este es el país más pacífico del mundo en 2025</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T15:34:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: Este es el país más pacífico del mundo en 2025
+
+**Datos más significativos identificados:**
+
+1. **5,4** - Porcentaje relevante: 5.4%
+   Contexto: la creación del Índice de Paz Global en 2008, la puntuación media de cada país se ha deteriorado un ...
+
+2. **11,7** - Porcentaje relevante: 11.7%
+   Contexto: ha deteriorado un 5,4 %. La brecha entre los países más y menos pacíficos también se ha ampliado un ...
+
+3. **2025** - Dato de decimal: 2025
+   Contexto: Este es el país más pacífico del mundo en 2025 Esta nación nórdica, famosa por sus volcanes, aguas t...
+
+4. **2025** - Dato de decimal: 2025
+   Contexto: o interno e internacional en curso y el grado de militarización. Además de encabezar el índice para ...
+
+5. **2008** - Dato de decimal: 2008
+   Contexto: ienestar social y mayor resiliencia ante las crisis”. Desde la creación del Índice de Paz Global en ...
+
+**Análisis de tendencias:**
+- Período de estrenos: 2008.0-2025.0
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/este-es-el-pais-mas-pacifico-del-mundo-en-2025_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Xi y Modi hablan de amistad en un mundo “caótico” ante el impacto de los aranceles de Trump</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T15:29:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: Xi y Modi hablan de amistad en un mundo “caótico” ante el impacto de los aranceles de Trump
+
+**Datos más significativos identificados:**
+
+1. **2020** - Dato de decimal: 2020
+   Contexto: nes a lo largo de su disputada frontera del Himalaya, donde ambos libraron una escaramuza mortal en ...
+
+2. **2.800** - Dato de decimal: 2.800
+   Contexto: putada frontera del Himalaya, donde ambos libraron una escaramuza mortal en 2020. “Los intereses de ...
+
+3. **2020** - Dato de entero: 2020
+   Contexto: nes a lo largo de su disputada frontera del Himalaya, donde ambos libraron una escaramuza mortal en ...
+
+4. **800** - Dato de magnitud: 800
+   Contexto: tada frontera del Himalaya, donde ambos libraron una escaramuza mortal en 2020. “Los intereses de 2....
+
+5. **800** - Dato de entero: 800
+   Contexto: tada frontera del Himalaya, donde ambos libraron una escaramuza mortal en 2020. “Los intereses de 2....
+
+**Análisis de tendencias:**
+- Período de estrenos: 2020.0-2020.0
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/xi-y-modi-hablan-de-amistad-en-un-mundo-caotico-ante-el-impacto-de-los-aranceles-de-trump_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">“Aquí manda otra gente”: Miles de manifestantes exigen el fin del control de EE.UU. sobre Puerto Rico</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T15:27:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: “Aquí manda otra gente”: Miles de manifestantes exigen el fin del control de EE.UU. sobre Puerto Rico
+
+**Datos más significativos identificados:**
+
+1. **5** - Dato de magnitud: 5
+   Contexto:  estados de Ohio, Illinois, Florida, Massachusetts, Nueva Jersey y Nueva York, donde residen más de ...
+
+2. **3.000** - Dato de decimal: 3.000
+   Contexto: tantes exigen el fin del control de EE.UU. sobre Puerto Rico La movilización, que reunió a cerca de ...
+
+3. **3.000** - Dato de decimal: 3.000
+   Contexto: ar el rechazo al control político y económico que ejerce Estados Unidos sobre la isla. (EFE) – Unas ...
+
+4. **1952** - Dato de decimal: 1952
+   Contexto:  y soberano” . El actual estatus político de Puerto Rico como Estado Libre Asociado, establecido en ...
+
+5. **1954** - Dato de decimal: 1954
+   Contexto: ta de Puerto Rico que cumplió 24 años de prisión por tirotear el Congreso de EE.UU. el 1 de mayo de ...
+
+**Análisis de tendencias:**
+No se identificaron patrones de tendencia claros en los datos.
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/miles-manifestantes-exigen-fin-control-ee-uu-sobre-puerto-rico_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Tras tiroteo en EE.UU.: El papa pide que termine “la pandemia de las armas que infecta nuestro mundo”</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T15:15:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: Tras tiroteo en EE.UU.: El papa pide que termine “la pandemia de las armas que infecta nuestro mundo”
+
+**Datos más significativos identificados:**
+
+1. **2025** - Dato de decimal: 2025
+   Contexto: regulaciones de control de armas más estrictas, pese a los constantes tiroteos, 286 en lo que va de ...
+
+2. **2025** - Dato de decimal: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+3. **2025** - Dato de entero: 2025
+   Contexto: regulaciones de control de armas más estrictas, pese a los constantes tiroteos, 286 en lo que va de ...
+
+4. **2025** - Dato de entero: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+**Análisis de tendencias:**
+- Período de estrenos: 2025.0-2025.0
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/tras-tiroteo-en-ee-uu-el-papa-pide-que-termine-la-pandemia-de-las-armas-que-infecta-nuestro-mundo_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Los hutíes irrumpen en edificios de la ONU en Yemen tras muerte de su primer ministro tras ofensiva israelí</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T15:13:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: Los hutíes irrumpen en edificios de la ONU en Yemen tras muerte de su primer ministro tras ofensiva israelí
+
+**Datos más significativos identificados:**
+
+1. **2014** - Dato de decimal: 2014
+   Contexto: ná: llegaremos a todos ellos”, dijo el líder israelí en una reunión gubernamental el domingo. Desde ...
+
+2. **2025** - Dato de decimal: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+3. **2014** - Dato de entero: 2014
+   Contexto: ná: llegaremos a todos ellos”, dijo el líder israelí en una reunión gubernamental el domingo. Desde ...
+
+4. **2025** - Dato de entero: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+**Análisis de tendencias:**
+- Período de estrenos: 2014.0-2025.0
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/huties-irrumpen-edificios-onu-yemen-muerte-primer-ministro-ofensiva-israeli_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Sismo obligó a evacuar y detener faenas de El Teniente: No se reportan lesionados</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T14:44:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: Sismo obligó a evacuar y detener faenas de El Teniente: No se reportan lesionados
+
+**Datos más significativos identificados:**
+
+1. **1.518** - Dato de decimal: 1.518
+   Contexto: adores. El temblor 2,3 fue registrado a las 12:41 y se produjo al oeste del yacimiento bajo la cota ...
+
+2. **2025** - Dato de decimal: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+3. **2025** - Dato de entero: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+**Análisis de tendencias:**
+- Período de estrenos: 2025.0-2025.0
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/el-teniente-aplico-protocolos-de-seguridad-por-temblor-no-se-reportan-lesionados_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">“Jujutsu Kaisen” vuelve con todo: Anuncian nueva temporada en 2026 y el estreno de su película a fines de este año</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T14:18:00</span> |
+                        <span class="categoria">cultura</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: “Jujutsu Kaisen” vuelve con todo: Anuncian nueva temporada en 2026 y el estreno de su película a fines de este año
+
+**Datos más significativos identificados:**
+
+1. **2026** - Dato de decimal: 2026
+   Contexto: “Jujutsu Kaisen” vuelve con todo: Anuncian nueva temporada en 2026 y el estreno de su película a fin...
+
+2. **2026** - Dato de decimal: 2026
+   Contexto:  de Gege Akutami se prepara para una nueva etapa con el estreno de su tercera temporada en enero de ...
+
+3. **2026** - Dato de decimal: 2026
+   Contexto: te anuncio, Jujutsu Kaisen se posiciona como uno de los títulos clave para la temporada de invierno ...
+
+4. **2026** - Dato de decimal: 2026
+   Contexto: iembre , llega a Norteamérica el 5 de diciembre. Temporada 3 “The Culling Game”: Debuta en enero de ...
+
+5. **2025** - Dato de decimal: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+**Análisis de tendencias:**
+- Período de estrenos: 2025.0-2026.0
+**Recomendaciones de interpretación:**
+• Comparar con el desempeño de secuelas anteriores
+• Analizar el spacing temporal entre entregas de la franquicia
+• Evaluar el potencial de taquilla basado en números anteriores
+                    </div>
+                    <a href="https://www.cnnchile.com/cultura/jujutsu-kaisen-anuncian-nueva-temporada-2026-estreno-pelicula_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Superclásico 198: Colo Colo reina con el 45% de los clásicos y la U, con un 25%, busca revertir la historia</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T14:03:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: Superclásico 198: Colo Colo reina con el 45% de los clásicos y la U, con un 25%, busca revertir la historia
+
+**Datos más significativos identificados:**
+
+1. **45** - Porcentaje relevante: 45.0%
+   Contexto: Superclásico 198: Colo Colo reina con el 45% de los clásicos y la U, con un 25%, busca revertir la h...
+
+2. **25** - Porcentaje relevante: 25.0%
+   Contexto: Superclásico 198: Colo Colo reina con el 45% de los clásicos y la U, con un 25%, busca revertir la h...
+
+3. **45** - Porcentaje relevante: 45.0%
+   Contexto: os disputados hasta la fecha, Colo-Colo ha logrado imponerse en 89 ocasiones , lo que representa un ...
+
+4. **25** - Porcentaje relevante: 25.0%
+   Contexto: 89 ocasiones , lo que representa un 45% de victorias; Universidad de Chile ha ganado 50 encuentros (...
+
+5. **30** - Porcentaje relevante: 30.0%
+   Contexto:  Universidad de Chile ha ganado 50 encuentros (25% de los partidos) y se han registrado 58 empates (...
+
+**Análisis de tendencias:**
+No se identificaron patrones de tendencia claros en los datos.
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/superclasico-198-colo-colo-reina-con-el-45-de-los-clasicos-y-la-u-con-un-25-busca-revertir-la-historia_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Metro cierra estación de Línea 4 por presencia de barristas asistentes al Superclásico en el Monumental</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T13:44:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Analista de Datos Estadísticos</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        ANÁLISIS ESTADÍSTICO CONTEXTUALIZADO: Metro cierra estación de Línea 4 por presencia de barristas asistentes al Superclásico en el Monumental
+
+**Datos más significativos identificados:**
+
+1. **2025** - Dato de decimal: 2025
+   Contexto: nción de trenes. Seguiremos informando. — Metro de Santiago – #50Años (@metrodesantiago) August 31, ...
+
+2. **2025** - Dato de decimal: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+3. **2025** - Dato de entero: 2025
+   Contexto: nción de trenes. Seguiremos informando. — Metro de Santiago – #50Años (@metrodesantiago) August 31, ...
+
+4. **2025** - Dato de entero: 2025
+   Contexto: y Matucana 100, la capital reunirá actividades musicales, teatrales y familiares durante septiembre ...
+
+**Análisis de tendencias:**
+- Período de estrenos: 2025.0-2025.0
+**Recomendaciones de interpretación:**
+• Contextualizar los datos con benchmarks de la industria
+• Analizar tendencia histórica de valores similares
+• Evaluar impacto potencial en stakeholders relevantes
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/metro-cierra-estacion-linea-4-presencia-barristas-asistentes-superclasico-monumental_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+            </div>
+        </section>
+        
+        <section class="agente-section">
+            <div class="agente-header">
+                <div>
+                    <h2 class="agente-title">Hashtagero Estratégico</h2>
+                    <p class="agente-desc">Identifica palabras clave y genera combinaciones de hashtags por categoría temática.</p>
+                </div>
+                <span class="contador-noticias">10 noticias</span>
+            </div>
+
+            <div class="noticias-container">
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">“Me desmayé por estrés”: Endler revela secuelas de su salida de la Roja y habla de sus proyecciones profesionales y privadas</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T13:32:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Deportes #Fútbol #DeporteNacional #BuenasNoticias #Optimismo #desmayé #estrés”:
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/me-desmaye-estres-endler-revela-secuelas-salida-roja-habla-proyecciones-profesionales-privadas_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Ben Brereton Díaz cambia de club en Inglaterra: es nuevo jugador de Derby County</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T13:21:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Deportes #Fútbol #DeporteNacional #Información #Actualización #Brereton #cambia
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/ben-brereton-diaz-cambia-de-club-en-inglaterra-es-nuevo-jugador-de-derby-county_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Jessie J pospone su gira y anuncia que se someterá a más cirugías tras ser diagnosticada con cáncer de mama</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T13:03:00</span> |
+                        <span class="categoria">cultura</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Cultura #Espectáculos #Arte #Información #Actualización #Jessie #pospone
+                    </div>
+                    <a href="https://www.cnnchile.com/cultura/jessie-j-pospone-gira-anuncia-sometera-cirugias-diagnosticada-cancer-mama_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">El nuevo rostro del suicidio en Chile: Hombres de más de 40 años y adultos mayores concentran la mayoría de los casos</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T12:54:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Chile #Actualidad #Noticias #Política #Alerta #Importante #nuevo
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/nuevo-rostro-suicidio-chile-hombres-mas-40-adultos-mayores-concentran-mayoria-casos_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">El Tano Ortiz, el técnico argentino que buscará imponer un estilo ofensivo y de alta presión en Colo Colo</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T12:48:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Deportes #Fútbol #DeporteNacional #Información #Actualización #Ortiz, #técnico
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/el-tano-ortiz-el-tecnico-argentino-que-buscara-imponer-un-estilo-ofensivo-y-de-alta-presion-en-colo-colo_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Kast acusa a Vidal de ser “un activista de Jara” y que “ya debería haber dejado el cargo” en TVN</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T12:45:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Chile #Actualidad #Noticias #Política #BuenasNoticias #Optimismo #acusa
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/jose-antonio-kast-intervencionismo-francisco-vidal_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Criteria: Apoyo a Kast baja 2 puntos y se estrecha carrera con Jara, pero sigue liderando con 28% y ganaría en segunda vuelta</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T12:07:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Chile #Actualidad #Noticias #Política #BuenasNoticias #Optimismo #Criteria:
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/criteria-apoyo-kast-baja-2-puntos-estrecha-carrera-jara-sigue-liderando-28-ganaria-segunda-vuelta_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Gobierno concretó nuevo vuelo de expulsión: más de 800 expulsiones en 2025 y más de 4 mil desde que asumió Boric</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T12:02:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Chile #Actualidad #Noticias #Política #Información #Actualización #Gobierno
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/gobierno-concreta-vuelo-expulsion-800-expulsiones-2025-4-mil-asumio-gabriel-boric_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Jara domina la intención de voto inicial, pero no alcanza a Kast ni Matthei en segunda vuelta, según Pulso Ciudadano</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T11:44:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Chile #Actualidad #Noticias #Política #Información #Actualización #domina
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/jara-domina-la-intencion-de-voto-inicial-pero-no-alcanza-a-kast-ni-matthei-en-segunda-vuelta-segun-pulso-ciudadano_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">“Pasó a centímetros del ano”: Torero colombiano sufre grave cornada en uno de los accidentes más severos de la historia</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T11:20:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Hashtagero Estratégico</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        #Internacional #Mundo #Global #Información #Actualización #“Pasó #centímetros
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/paso-a-centimetros-del-ano-torero-colombiano-sufre-grave-cornada-en-uno-de-los-accidentes-mas-severos-de-la-historia_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+            </div>
+        </section>
+        
+        <section class="agente-section">
+            <div class="agente-header">
+                <div>
+                    <h2 class="agente-title">Preguntador Curioso</h2>
+                    <p class="agente-desc">Extrae preguntas abiertas basadas en aspectos de los artículos originales.</p>
+                </div>
+                <span class="contador-noticias">10 noticias</span>
+            </div>
+
+            <div class="noticias-container">
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">“Volveremos siendo aún más”: Greta Thunberg acompaña nueva flotilla que intenta romper el bloqueo a Gaza</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T10:20:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: “Volveremos siendo aún más”: Greta Thunberg acompaña nueva flotilla que intenta romper el bloqueo a Gaza
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What did Greta Thunberg do?
+2. question: What was the goal of the Global Sumud Flotilla?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/volveremos-siendo-aun-mas-greta-thunberg-acompana-nueva-flotilla-que-intenta-romper-el-bloqueo-a-gaza_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Hombre murió baleado en las afueras de un local clandestino en Independencia</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T09:47:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: Hombre murió baleado en las afueras de un local clandestino en Independencia
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What happened to the vctima?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/hombre-murio-baleado-en-las-afueras-de-un-local-clandestino-en-independencia_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Histórico: Chileno Matías González se coronó campeón mundial de esquí náutico en Italia</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T09:24:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: Histórico: Chileno Matías González se coronó campeón mundial de esquí náutico en Italia
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What did Matas González do?
+2. question: What happened to the deportista chileno?
+3. question: How many puntos did González win?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/historico-chileno-matias-gonzalez-se-corono-campeon-mundial-de-esqui-nautico-en-italia_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Fuerte sismo se registró en la zona central durante la madrugada de este domingo</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-31T09:05:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: Fuerte sismo se registró en la zona central durante la madrugada de este domingo
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What was the impact of the temblor?
+2. question: What is the depth of the temblor?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/fuerte-sismo-se-registro-en-la-zona-central-durante-la-madrugada-de-este-domingo_20250831/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Corte ratifica condena contra 13 exmilitares (r) acusados de ejecutar a dos jóvenes en 1973: Uno de ellos solo tenía 14 años</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T19:45:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: Corte ratifica condena contra 13 exmilitares (r) acusados de ejecutar a dos jóvenes en 1973: Uno de ellos solo tenía 14 años
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What happened to the hechos?
+2. question: What did El tribunal do?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/condena-13-exmilitares-acusados-ejecutar-dos-jovenes-1973_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Minsal anunció inyección de $73 mil millones en recursos para avanzar en listas de espera</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T19:19:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: Minsal anunció inyección de $73 mil millones en recursos para avanzar en listas de espera
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: How much money did Aguilera generate?
+2. question: What was the cost of the recursos?
+3. question: What did Ximena Aguilera say about recursos?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/minsal-anuncio-inyeccion-de-73-mil-millones-en-recursos-para-avanzar-en-listas-de-espera_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Helicóptero privado se estrella en Osorno mientras realizaba maniobras: Incidente no dejó heridos</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T18:33:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: Helicóptero privado se estrella en Osorno mientras realizaba maniobras: Incidente no dejó heridos
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What did the aeronave do?
+2. question: What did La Tercera do?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/helicoptero-privado-se-estrella-en-osorno-mientras-realizaba-maniobras-incidente-no-dejo-heridos_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">“¡Bienvenido al eterno campeón!”: Fernando Ortiz es confirmado como nuevo técnico de Colo Colo</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T17:20:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: “¡Bienvenido al eterno campeón!”: Fernando Ortiz es confirmado como nuevo técnico de Colo Colo
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What did Fernando Ortiz do?
+2. question: Who was the director of Blanco & Negro?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/bienvenido-al-eterno-campeon-fernando-ortiz-es-confirmado-como-nuevo-tecnico-de-colo-colo_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Coquimbo Unido mantiene el liderato y amplía su ventaja en el Campeonato Nacional tras vencer a Huachipato</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T17:00:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: Coquimbo Unido mantiene el liderato y amplía su ventaja en el Campeonato Nacional tras vencer a Huachipato
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What was the result of the golf?
+2. question: What was the outcome of the game?
+3. question: What happened to the Piratas?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/coquimbo-unido-liderato-amplia-ventaja-campeonato-nacional_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Tribunal Supremo de Brasil endurece control sobre Jair Bolsonaro de cara al juicio en su contra por intento de golpe de Estado</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T16:39:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Preguntador Curioso</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        SOBRE: Tribunal Supremo de Brasil endurece control sobre Jair Bolsonaro de cara al juicio en su contra por intento de golpe de Estado
+
+PREGUNTAS CLAVE PARA PROFUNDIZAR:
+1. question: What did Jair Bolsonaro do?
+2. question: What is the name of the tribunal?
+3. question: Who was the instructor of the case?
+
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/tribunal-supremo-brasil-endurece-control-jair-bolsonaro-juicio-intento-golpe-estado_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+            </div>
+        </section>
+        
+        <section class="agente-section">
+            <div class="agente-header">
+                <div>
+                    <h2 class="agente-title">Analogador Creativo</h2>
+                    <p class="agente-desc">Encuentra analogías simples para conceptos complejos, haciendo las noticias más accesibles.</p>
+                </div>
+                <span class="contador-noticias">10 noticias</span>
+            </div>
+
+            <div class="noticias-container">
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Matthei afirma que “al principio” de un gobierno suyo dispondría de “ayuda” de las FFAA en resguardo fronterizo</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T16:14:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        'Matthei afirma que “al principio” de un gobierno suyo dispondría de “ayuda” de las FFAA en resguardo fronterizo' matthei afirma que “al principio” de un gobierno suyo dispondría de “ayuda” of las ffaa en resguardo fronterizo. la analogía debe ser comprensible y relacionada con la vida cotidiana.  por otro lado, comentó que el sence "n... Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/evelyn-matthei-resguardo-fronterizo-ejercito-fuerzas-armadas_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">PSY bajo la lupa en Corea del Sur: Investigan al cantante de “Gangnam Style” por posible obtención ilegal de fármacos</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T16:08:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        'PSY bajo la lupa en Corea del Sur: Investigan al cantante de “Gangnam Style” por posible obtención ilegal de fármacos' psy bajo la lupa en corea del sur: investigan al cantante de “gangnam style” por posible obtención ilegal de fármacos. la analogía debe ser comprensible y relacionada con la vida cotidiana.  el célebre cantante psy ,... Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/psy-corea-del-sur-investigan-cantante-gangnam-style-posible-obtencion-ilegal-farmacos_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Venezuela advierte a Estados Unidos que será su “peor pesadilla” si intenta una agresión en el Caribe</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T16:03:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        'Venezuela advierte a Estados Unidos que será su “peor pesadilla” si intenta una agresión en el Caribe' venezuela advierte a estados unidos que será su “peor pesadilla” si intenta unas agresión en el caribe. la analogía debe ser comprensible y relacionada con la vida cotidiana. .. Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/venezuela-advierte-a-estados-unidos-que-sera-su-peor-pesadilla-si-intenta-una-agresion-en-el-caribe_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Corte de Apelaciones de EE.UU. frena temporalmente intento de eliminar el TPS para 600.000 venezolanos</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T15:50:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        'Corte de Apelaciones de EE.UU. frena temporalmente intento de eliminar el TPS para 600.000 venezolanos' corte de apelaciones de ee.uu. frena temporalmente intento de eliminar el tps para 600.000 venezolanos. la analogía debe ser comprensible y relacionada con la vida cotidiana.  (efe) – el tribunal del noveno circuito d... Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/corte-apelaciones-ee-uu-frena-temporalmente-intento-eliminar-tps-600-000-venezolanos_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">¿Quién es Fernando Ortiz? El perfil del técnico argentino que suena en Colo Colo</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T15:33:00</span> |
+                        <span class="categoria">deportes</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        '¿Quién es Fernando Ortiz? El perfil del técnico argentino que suena en Colo Colo' ¿quién es fernando ortiz? el perfil del técnico argentino que suena en colo colo. la analogía debe ser comprensible y relacionada con la vida cotidiana. .. Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/deportes/quien-es-fernando-ortiz-el-perfil-del-tecnico-argentino-que-suena-en-colo-colo_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">“Pisotean la dignidad de las mujeres”: Primera ministra de Italia condena sitio porno con imágenes manipuladas de ella</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T15:25:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        '“Pisotean la dignidad de las mujeres”: Primera ministra de Italia condena sitio porno con imágenes manipuladas de ella' “pisotean la dignidad de las mujeres”: primera ministra de italia condena sitio porno con imágenes manipuladas de ella. la analogía debe ser comprensible y relacionada con la vida cotidiana.  el escándalo también al... Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/primera-ministra-de-italia-condena-sitio-porno-con-imagenes-manipuladas-de-ella_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Hallan en Argentina un cuadro robado por los nazis hace 80 años: Se encuentra en la casa de la hija de un exfuncionario alemán</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T15:05:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        'Hallan en Argentina un cuadro robado por los nazis hace 80 años: Se encuentra en la casa de la hija de un exfuncionario alemán' hallan en argentina un cuadro robado por los nazis hace 80 años: se encuentra en la casa de la hija de un exfuncionario alemán. la analogía debe ser comprensible y relacionada con la vida cotidiana. .. Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/hallan-argentina-cuadro-robado-nazis-hace-80-anos-casa-hija-exfuncionario-aleman_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Longton emplaza al Gobierno a dar urgencia a proyecto de pena adicional a reos que se fuguen</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T15:03:00</span> |
+                        <span class="categoria">pais</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        'Longton emplaza al Gobierno a dar urgencia a proyecto de pena adicional a reos que se fuguen' longton emplaza al gobierno a dar urgencia a proyecto de pena adicional a reos que se fuguen. la analogía debe ser comprensible y relacionada con la vida cotidiana. ... Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/pais/diputado-andres-longton-emplaza-gobierno-proyecto-fuga_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Realizan emotivo homenaje de más de una semana a Juan Gabriel en México: “Seguimos escuchándolo porque queremos que siga vivo”</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T14:48:00</span> |
+                        <span class="categoria">mundo</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        'Realizan emotivo homenaje de más de una semana a Juan Gabriel en México: “Seguimos escuchándolo porque queremos que siga vivo”' realizan emotivo homenaje de más de una semana a juan gabriel en méxico: “seguimos escuchándolo porque queremos que siga vivo”. la analogía debe ser comprensible y relacionada con la vida cotidiana.  (efe)... Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/mundo/realizan-emotivo-homenaje-mas-una-semana-juan-gabriel-mexico_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+                <article class="noticia">
+                    <h3 class="noticia-titulo">Por qué el mundo está cada vez más cautivado por Sabrina Carpenter</h3>
+                    <div class="noticia-meta">
+                        <span class="fecha">2025-08-30T14:33:00</span> |
+                        <span class="categoria">cultura</span> |
+                        <span class="agente">Por: Analogador Creativo</span>
+                    </div>
+                    <div class="noticia-contenido">
+                        'Por qué el mundo está cada vez más cautivado por Sabrina Carpenter' por qué el mundo está cada vez más cautivado por sabrina carpenter.  la analogía debe ser comprensible y relacionada con la vida cotidiana. (cnn) – puede que grupos de jóvenes mujer... Esta analogía nos ayuda a visualizar mejor la situación.
+                    </div>
+                    <a href="https://www.cnnchile.com/cultura/por-que-el-mundo-esta-cada-vez-mas-cautivado-por-sabrina-carpenter_20250830/" class="noticia-url" target="_blank">Ver noticia original</a>
+                </article>
+                
+            </div>
+        </section>
+        
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Portal generado automáticamente el 2025-08-31 23:47:32</p>
+            <p>Contenido procesado por 50 noticias de 5 agentes diferentes</p>
+        </div>
+    </footer>
+</body>
+</html>

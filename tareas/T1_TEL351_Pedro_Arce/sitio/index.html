@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias - Índice</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        .enlace-portal {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .enlace-portal:hover {
+            background-color: #2980b9;
+        }
+
+        .agentes-lista {
+            margin-top: 30px;
+            text-align: left;
+            max-width: 600px;
+        }
+
+        .agente-item {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .agente-nombre {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .agente-desc {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portal de Noticias Generadas por Agentes</h1>
+
+    <a href="portal_noticias.html" class="enlace-portal">Ver Portal Completo de Noticias</a>
+
+    <div class="agentes-lista">
+        <h2>Agentes de Contenido</h2>
+        <div class="agente-item">
+            <div class="agente-nombre">Titulares Impactantes Contextuales</div>
+            <div class="agente-desc">Genera titulares clickbait ajustados a la categoría, evitando sensacionalizar tragedias.</div>
+        </div>
+        <div class="agente-item">
+            <div class="agente-nombre">Analista de Datos Estadísticos</div>
+            <div class="agente-desc">Extrae y analiza cifras, porcentajes y datos numéricos de las noticias.</div>
+        </div>
+        <div class="agente-item">
+            <div class="agente-nombre">Hashtagero Estratégico</div>
+            <div class="agente-desc">Identifica palabras clave y genera combinaciones de hashtags por categoría temática.</div>
+        </div>
+        <div class="agente-item">
+            <div class="agente-nombre">Preguntador Curioso</div>
+            <div class="agente-desc">Extrae preguntas abiertas basadas en aspectos de los artículos originales.</div>
+        </div>
+        <div class="agente-item">
+            <div class="agente-nombre">Analogador Creativo</div>
+            <div class="agente-desc">Encuentra analogías simples para conceptos complejos, haciendo las noticias más accesibles.</div>
+        </div>
+    </div>
+</body>
+</html>
